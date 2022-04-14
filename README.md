@@ -5,10 +5,10 @@ This is an open-source FastAPI template to get developers speed up their develop
 ## Installation
 
 1. The recommended python version is mentioned in [.python-version](./.python-version).
-    - You can use pyenv to manage your python versions.
-    - If dont have the recommended python version installed, simply run `pyenv install <the-python-version>`.
-2. Run `potery shell` to create a virtual environment.
-    - If you prefer having your virtualenv to be created in the same folder, run `poetry config virtualenvs.in-project true`.
+    - You can use `pyenv` to manage your python versions.
+    - If do not have the recommended python version installed, simply run `pyenv install <the-python-version>`.
+2. Run `poetry shell` to create a virtual environment.
+    - If you prefer having your _virtualenv_ to be created in the same folder, run `poetry config virtualenvs.in-project=true virtualenvs.create=true`.
 3. Run `poetry install`.
 
 # Dependencies and Setup
