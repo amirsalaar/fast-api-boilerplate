@@ -1,0 +1,2 @@
+[pycodestyle]
+exclude = .git,migrations,node_modules,manage.py,.venv

@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "fast-api-boilerplate"
+version = "0.1.0"
+description = "A boilerplate to generate FastAPI boilerplates"
+authors = ["Amirsalar Heydari <amirsalaar@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.75.1"
+uvicorn = {extras = ["standard"], version = "^0.17.6"}
+motor = "^2.5.1"
+pydantic = "^1.9.0"
+bson = "^0.5.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.1"
+pycodestyle = "^2.8.0"
+pre-commit = "^2.18.1"
+pytest-cov = "^3.0.0"
+pytest-watch = "^4.2.0"
+pytest-mock = "^3.7.0"
+flake8 = "^4.0.1"
+autopep8 = "^1.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
