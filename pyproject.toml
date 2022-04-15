@@ -8,10 +8,10 @@ authors = ["Amirsalar Heydari <amirsalaar@gmail.com>"]
 python = "^3.9"
 fastapi = "^0.75.1"
 uvicorn = {extras = ["standard"], version = "^0.17.6"}
-motor = "^2.5.1"
 pydantic = "^1.9.0"
-bson = "^0.5.10"
 python-dotenv = "^0.20.0"
+pymongo = "3.12.3"
+motor = "^2.5.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.1.1"
